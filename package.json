@@ -1,11 +1,11 @@
 {
-    "name": "invoker-grandmaster",
+    "name": "threejs-invoker-grandmaster",
     "type": "module",
     "scripts": {
         "dev": "vite --mode development",
         "build": "tsc && vite build --mode production",
-        "build-giteepage": "tsc && vite build --base https://lian_1998.gitee.io/invoker-grandmaster/ --mode production",
-        "build-gitpage": "tsc && vite build --base https://Lian1998.github.io/invoker-grandmaster/ --mode production",
+        "build-gitee-page": "tsc && vite build --base /threejs-invoker-grandmaster/ --mode production",
+        "build-github-page": "tsc && vite build --base /threejs-invoker-grandmaster/ --mode production",
         "preview": "vite preview"
     },
     "devDependencies": {
